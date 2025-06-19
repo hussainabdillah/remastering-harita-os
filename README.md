@@ -82,9 +82,9 @@ docker run -it -v C:\Users\Admin\Documents\Project\Remastering\HaritaOS:/workspa
 
 ## Screenshots
 
-| Desktop | Applications | Settings |
-|---------|-------------|----------|
-| ![Desktop](assets/screenshots/desktop.png) | ![Apps](assets/screenshots/applications.png) | ![Settings](assets/screenshots/settings.png) |
+| Desktop | Applications | Settings | Login |
+|---------|-------------|----------|----------|
+| ![Desktop](assets/screenshots/about.png) | ![Apps](assets/screenshots/applications.png) | ![Settings](assets/screenshots/settings.png) | ![Login](assets/screenshots/login.png) |
 
 ## Support
 
