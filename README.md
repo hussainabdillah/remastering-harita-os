@@ -1,6 +1,6 @@
 ﻿# HaritaOS
 
-ðŸŒ¿ **Ubuntu 20.04 remaster dengan tema hijau yang terinspirasi alam Indonesia**
+🌱 **Ubuntu 20.04 remaster dengan tema hijau yang terinspirasi alam Indonesia**
 
 ![HaritaOS Logo](assets/screenshots/desktop.png)
 
@@ -10,19 +10,19 @@ HaritaOS adalah distribusi Linux berbasis Ubuntu 20.04 LTS yang dirancang khusus
 
 ## Features
 
-- ðŸŽ¨ **Tema Hijau Kustomisasi** - Desain yang terinspirasi alam Indonesia
-- ðŸ–¼ï¸ **Icon Pack Beragam** - Multiple icon themes termasuk HaritaIcons
-- ðŸš€ **Boot Splash Kustom** - Plymouth theme dengan branding HaritaOS
-- ðŸ  **Welcome App** - Aplikasi selamat datang untuk first-run experience
-- âš™ï¸ **Settings Tool** - Tool konfigurasi sistem yang mudah digunakan
-- ðŸŒ **Lokalisasi Indonesia** - Dukungan Bahasa Indonesia
+- 🎨 **Tema Hijau Kustomisasi** - Desain yang terinspirasi alam Indonesia
+- 🖼️ **Icon Pack Beragam** - Multiple icon themes termasuk HaritaIcons
+- 🚀 **Boot Splash Kustom** - Plymouth theme dengan branding HaritaOS
+- 🏠 **Welcome App** - Aplikasi selamat datang untuk first-run experience
+- 🛠️ **Settings Tool** - Tool konfigurasi sistem yang mudah digunakan
+- 🌏 **Lokalisasi Indonesia** - Dukungan Bahasa Indonesia
 
 ## Quick Start
 
-`ash
+```bash
 # Clone repository
-git clone https://github.com/yourusername/HaritaOS.git
-cd HaritaOS
+git clone https://github.com/hussainabdillah/remastering-harita-os.git
+cd remastering-harita-os
 
 # Download Ubuntu 20.04 ISO
 wget http://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso
@@ -30,7 +30,7 @@ wget http://releases.ubuntu.com/20.04/ubuntu-20.04.6-desktop-amd64.iso
 # Build HaritaOS (Linux required)
 chmod +x build.sh
 sudo ./build.sh
-`
+```
 
 ## Requirements for Building
 
@@ -48,29 +48,30 @@ For Windows users:
 - Internet connection
 
 ### Dependencies
-`ash
+
+```bash
 sudo apt install squashfs-tools genisoimage syslinux-utils
-`
+```
 
 ## Development on Windows
 
 ### Option 1: WSL2 (Recommended)
-`powershell
+```powershell
 # Install WSL2
 wsl --install -d Ubuntu-20.04
 
 # Open WSL and follow Linux build instructions
 wsl
-`
+```
 
 ### Option 2: Docker
-`powershell
+```powershell
 # Pull Ubuntu container
 docker pull ubuntu:20.04
 
 # Run container with repository mounted
 docker run -it -v C:\Users\Admin\Documents\Project\Remastering\HaritaOS:/workspace ubuntu:20.04 bash
-`
+```
 
 ## Documentation
 
@@ -87,13 +88,13 @@ docker run -it -v C:\Users\Admin\Documents\Project\Remastering\HaritaOS:/workspa
 
 ## Support
 
-- ðŸ› [Report Issues](https://github.com/yourusername/HaritaOS/issues)
-- ðŸ’¬ [Discussions](https://github.com/yourusername/HaritaOS/discussions)
-- ðŸ“§ Email: support@haritaos.org
+- 🐞 [Report Issues](https://github.com/hussainabdillah/remastering-harita-os/issues)
+- 💬 [Discussions](https://github.com/hussainabdillah/remastering-harita-os/discussions)
+- 📧 Email: support@haritaos.org
 
 ## License
 
 GPL-3.0 License - see [LICENSE](LICENSE) for details.
 
 ---
-Made with â¤ï¸ in Indonesia
+Made with ❤️ in Indonesia
